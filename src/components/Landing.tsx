@@ -1,5 +1,4 @@
 import { PropsWithChildren, useEffect, useRef } from "react";
-import { MdDownload } from "react-icons/md";
 import "./styles/Landing.css";
 
 const Landing = ({ children }: PropsWithChildren) => {

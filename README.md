@@ -40,6 +40,29 @@ This project uses GSAP trial plugins for development purposes. For production de
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Deployment 🚀
+
+This project is configured for easy deployment on Vercel.
+
+### Deploy to Vercel
+
+1. **Connect your GitHub repository** to Vercel
+2. **Import the project** from your GitHub repo
+3. **Configure build settings** (should auto-detect):
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+   - **Install Command**: `npm install`
+4. **Deploy!** Vercel will automatically build and deploy your site
+
+### Local Build Test
+
+Before deploying, test the build locally:
+
+```bash
+npm run build
+npm run preview
+```
+
 ## License 📄
 
 This project is open source and available under the [MIT License](LICENSE).
