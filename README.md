@@ -1,16 +1,54 @@
-# My Portfolio Wesbite - Overview 🚀
+# Rudra's Portfolio Website 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+A modern, interactive portfolio website showcasing my work and skills as a full-stack developer.
 
-## Instructions 🛠️
+## Preview
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+![Portfolio Preview](public/images/preview.png)
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## Features ✨
 
-![Portfolio-Preview](public/images/preview.png)
+- **Interactive 3D Character**: Engaging 3D model with mouse interactions
+- **Smooth Animations**: Powered by GSAP for fluid user experience
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Fast Performance**: Built with Vite for quick loading times
+- **TypeScript**: Type-safe development for better code quality
+- **Modern Tech Stack**: React, Three.js, and cutting-edge web technologies
 
-## License
+## Tech Stack 🛠️
+
+- **Frontend Framework**: React 18 with TypeScript
+- **3D Graphics**: Three.js, React Three Fiber, React Three Drei
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Physics**: React Three Rapier for realistic interactions
+- **Build Tool**: Vite
+- **Styling**: CSS with custom animations
+- **Analytics**: Vercel Analytics
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+
+## GSAP License Note ⚠️
+
+This project uses GSAP trial plugins for development purposes. For production deployment and hosting, you'll need a GSAP Club membership license. Visit [GSAP Installation Guide](https://gsap.com/docs/v3/Installation/) for licensing options and details.
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License 📄
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Contact 📧
+
+- **LinkedIn**: [\[Your LinkedIn Profile\]](https://www.linkedin.com/in/rrudra-patel/)
+- **Email**: patelrudra854@gmail.com
+
+---
+
+Built with ❤️ using React, TypeScript, and Three.js
