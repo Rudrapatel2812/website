@@ -34,7 +34,7 @@ A modern, interactive portfolio website showcasing my work and skills as a full-
 
 ## GSAP License Note ⚠️
 
-This project uses GSAP trial plugins for development purposes. For production deployment and hosting, you'll need a GSAP Club membership license. Visit [GSAP Installation Guide](https://gsap.com/docs/v3/Installation/) for licensing options and details.
+This project uses GSAP (GreenSock Animation Platform) for smooth animations. As of April 30, 2025, GSAP is 100% FREE, including all bonus plugins like ScrollSmoother and SplitText. No membership required!
 
 ## Contributing 🤝
 
