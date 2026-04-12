@@ -33,7 +33,7 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://github.com/patelrudra"
+              href="https://github.com/Rudrapatel2812"
               target="_blank"
               rel="noopener noreferrer"
               data-cursor="disable"
@@ -42,7 +42,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="/Users/patelrudra/Downloads/rajesh-portfolio-main/public/resume.pdf"
+              href="/resume_.pdf"
               download="Rudra_Patel_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"

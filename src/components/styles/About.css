@@ -9,12 +9,14 @@
   width: var(--cWidth);
   margin: auto;
 }
+
 .about-me {
   padding: 50px 0px;
   padding-bottom: 0;
   width: 500px;
   max-width: calc(100% - 15px);
 }
+
 .about-me h3 {
   font-size: 25px;
   text-transform: uppercase;
@@ -23,18 +25,89 @@
   color: var(--accentColor);
 }
 
-.about-me p {
+.about-me .para {
   font-size: 33px;
   font-weight: 600;
   line-height: 36px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
+.about-para-2 {
+  margin-top: 18px;
+  font-weight: 400 !important;
+  font-size: 28px !important;
+  line-height: 34px !important;
+  color: rgba(234, 229, 236, 0.7);
+}
+
+.about-highlight {
+  color: var(--accentColor);
+}
+
+/* Certifications */
+.about-certs {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(94, 234, 212, 0.15);
+}
+
+.about-certs-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: var(--accentColor);
+  margin-bottom: 18px;
+}
+
+.about-certs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about-cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.about-cert-dot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--accentColor);
+  margin-top: 6px;
+}
+
+.about-cert-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #eae5ec;
+}
+
+.about-cert-issuer {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(94, 234, 212, 0.75);
+  margin-top: 2px;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .about-me {
     width: 500px;
@@ -45,6 +118,7 @@
     opacity: 1;
   }
 }
+
 @media only screen and (min-width: 1025px) {
   .about-section {
     width: var(--cWidth);
@@ -58,14 +132,29 @@
     padding: 0px;
     width: 50%;
   }
-  .about-me p {
+  .about-me .para {
     font-size: 1.9vw;
     line-height: 2.3vw;
   }
+  .about-para-2 {
+    font-size: 1.55vw !important;
+    line-height: 2vw !important;
+  }
+  .about-cert-name {
+    font-size: 13px;
+  }
+  .about-cert-issuer {
+    font-size: 11px;
+  }
 }
+
 @media only screen and (min-width: 1950px) {
-  .about-me p {
+  .about-me .para {
     font-size: 2.5rem;
     line-height: 2.7rem;
+  }
+  .about-para-2 {
+    font-size: 2rem !important;
+    line-height: 2.4rem !important;
   }
 }

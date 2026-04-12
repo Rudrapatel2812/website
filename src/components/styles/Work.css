@@ -88,6 +88,15 @@
   font-size: 16px;
 }
 
+.carousel-description {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(234, 229, 236, 0.65);
+  line-height: 1.65;
+  margin: 10px 0 0;
+  max-width: 480px;
+}
+
 .carousel-tools {
   margin-top: 16px;
 }
@@ -105,6 +114,24 @@
   color: #adacac;
   margin: 6px 0 0;
   font-size: 15px;
+}
+
+.carousel-github-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accentColor);
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid rgba(94, 234, 212, 0.35);
+  padding-bottom: 2px;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.carousel-github-link:hover {
+  color: var(--accentColor);
+  border-bottom-color: var(--accentColor);
+  opacity: 0.8;
 }
 
 .carousel-image-wrapper {
